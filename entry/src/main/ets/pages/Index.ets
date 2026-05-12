@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Index.ets - 优化版打地鼠游戏（草地背景+圆形地鼠洞+点击缩放动画）
 @Entry
 @Component
@@ -219,6 +220,8 @@ struct WhackAMole {
       colors: [['#4CAF50', 0.0], ['#2E7D32', 1.0]]
     })
 =======
+=======
+>>>>>>> 9f549874fe1c33941809a95bbd87ec353bfa5ede
 @Entry
 @Component
 struct Index {
@@ -285,6 +288,9 @@ struct Index {
     .width('100%')
     .height('100%')
     .backgroundColor('#f0f7ff')
+<<<<<<< HEAD
+>>>>>>> 9f549874fe1c33941809a95bbd87ec353bfa5ede
+=======
 >>>>>>> 9f549874fe1c33941809a95bbd87ec353bfa5ede
   }
 }
