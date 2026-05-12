@@ -1,6 +1,10 @@
 {
   "app": {
+<<<<<<< HEAD
     "bundleName": "com.example.whackamoledemo",
+=======
+    "bundleName": "com.example.mycard",
+>>>>>>> 9f549874fe1c33941809a95bbd87ec353bfa5ede
     "vendor": "example",
     "versionCode": 1000000,
     "versionName": "1.0.0",
