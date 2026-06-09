@@ -1,7 +1,11 @@
 {
   "app": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "bundleName": "com.example.gomokugame",
+=======
+    "bundleName": "com.example.whackamole",
+>>>>>>> 9e6216c3319450af190960906cddf24e7f8c2d40
 =======
     "bundleName": "com.example.whackamole",
 >>>>>>> 9e6216c3319450af190960906cddf24e7f8c2d40

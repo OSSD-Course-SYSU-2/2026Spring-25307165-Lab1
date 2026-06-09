@@ -23,11 +23,37 @@
         "exported": true,
         "skills": [
           {
+<<<<<<< HEAD
             "entities": ["entity.system.home"],
             "actions": ["action.system.home"]
           }
         ]
       }
+=======
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "ohos.want.action.home"
+            ]
+          }
+        ]
+      }
+    ],
+    "extensionAbilities": [
+      {
+        "name": "EntryBackupAbility",
+        "srcEntry": "./ets/entrybackupability/EntryBackupAbility.ets",
+        "type": "backup",
+        "exported": false,
+        "metadata": [
+          {
+            "name": "ohos.extension.backup",
+            "resource": "$profile:backup_config"
+          }
+        ],
+      }
+>>>>>>> 9e6216c3319450af190960906cddf24e7f8c2d40
     ]
   }
 }

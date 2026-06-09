@@ -2,6 +2,7 @@
   "string": [
     {
       "name": "module_desc",
+<<<<<<< HEAD
 
       "value": "五子棋游戏"
     },
@@ -21,12 +22,21 @@
     },
     {
       "name":"EntryAbility_desc",
+=======
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+>>>>>>> 9e6216c3319450af190960906cddf24e7f8c2d40
       "value": "description"
     },
     {
       "name": "EntryAbility_label",
       "value": "label"
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9e6216c3319450af190960906cddf24e7f8c2d40
     }
   ]
 }
