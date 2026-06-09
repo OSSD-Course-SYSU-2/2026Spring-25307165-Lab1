@@ -1,0 +1,32 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+
+      "value": "五子棋游戏"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "五子棋主界面"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "五子棋"
+    },
+    {
+      "name": "distributed_data_sync_reason",
+      "value": "用于实现五子棋游戏在不同设备间的自由流转",
+
+      "value": "module description"
+    },
+    {
+      "name":"EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "label"
+
+    }
+  ]
+}

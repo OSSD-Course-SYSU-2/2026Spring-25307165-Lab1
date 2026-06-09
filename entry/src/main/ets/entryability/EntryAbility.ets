@@ -1,0 +1,81 @@
+// EntryAbility.ets
+import { UIAbility, AbilityConstant, Want } from '@kit.AbilityKit';
+import { hilog } from '@kit.PerformanceAnalysisKit';
+import { window } from '@kit.ArkUI';
+
+export default class EntryAbility extends UIAbility {
+  onCreate(want: Want, launchParam: AbilityConstant.LaunchParam) {
+    // 检查是否从自由流转恢复
+    if (launchParam.launchReason === AbilityConstant.LaunchReason.CONTINUATION) {
+      const params = want.parameters;
+      if (params) {
+        this.restoreGameState(params);
+      }
+    }
+    hilog.info(0x0000, 'Gomoku', 'Ability onCreate');
+  }
+
+  onWindowStageCreate(windowStage: window.WindowStage) {
+    hilog.info(0x0000, 'Gomoku', 'Ability onWindowStageCreate');
+
+    windowStage.loadContent('pages/Index', (err, data) => {
+      if (err.code) {
+        hilog.error(0x0000, 'Gomoku', 'Failed to load content: ' + JSON.stringify(err));
+        return;
+      }
+      hilog.info(0x0000, 'Gomoku', 'Succeeded in loading content');
+    });
+  }
+
+  // 源端：保存迁移数据（点击"自由流转"时触发）
+  onContinue(wantParam: Record<string, Object>) {
+    hilog.info(0x0000, 'Gomoku', 'onContinue called');
+
+    // 从 AppStorage 获取当前游戏状态
+    const board = AppStorage.get<number[][]>('gameBoard');
+    const currentPlayer = AppStorage.get<number>('gameCurrentPlayer');
+    const gameOver = AppStorage.get<boolean>('gameGameOver');
+    const winner = AppStorage.get<number>('gameWinner');
+
+    if (board) {
+      wantParam["board"] = board;
+      wantParam["currentPlayer"] = currentPlayer;
+      wantParam["gameOver"] = gameOver;
+      wantParam["winner"] = winner;
+      hilog.info(0x0000, 'Gomoku', 'Game state saved for continuation');
+    }
+
+    return AbilityConstant.OnContinueResult.AGREE;
+  }
+
+  // 对端：恢复数据（热启动）
+  onNewWant(want: Want, launchParam: AbilityConstant.LaunchParam) {
+    if (launchParam.launchReason === AbilityConstant.LaunchReason.CONTINUATION) {
+      const params = want.parameters;
+      if (params) {
+        this.restoreGameState(params);
+      }
+    }
+  }
+
+  // 恢复游戏状态到全局
+  private restoreGameState(params: Record<string, Object>) {
+    const board = params["board"] as number[][];
+    const currentPlayer = params["currentPlayer"] as number;
+    const gameOver = params["gameOver"] as boolean;
+    const winner = params["winner"] as number;
+
+    if (board) {
+      AppStorage.setOrCreate('gameBoard', board);
+      AppStorage.setOrCreate('gameCurrentPlayer', currentPlayer);
+      AppStorage.setOrCreate('gameGameOver', gameOver);
+      AppStorage.setOrCreate('gameWinner', winner);
+      AppStorage.setOrCreate('needRestore', true);
+      hilog.info(0x0000, 'Gomoku', 'Game state restored');
+    }
+  }
+
+  onDestroy() {
+    hilog.info(0x0000, 'Gomoku', 'Ability onDestroy');
+  }
+}
