@@ -1,0 +1,195 @@
+{
+  "lockVersion": "1.0",
+  "settings": {
+    "resolveConflict": true,
+    "resolveConflictStrict": false,
+    "installAll": true
+  },
+  "overrides": {},
+  "overrideDependencyMap": {},
+  "modules": {
+    ".": {
+      "name": "",
+      "dependencies": {},
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "common/commonmultidevicecommunication": {
+      "name": "commonmultidevicecommunication",
+      "dependencies": {},
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "features/commonui": {
+      "name": "commonui",
+      "dependencies": {
+        "message": {
+          "specifier": "file:features/message",
+          "version": "file:features/message"
+        },
+        "user": {
+          "specifier": "file:features/user",
+          "version": "file:features/user"
+        },
+        "social": {
+          "specifier": "file:features/social",
+          "version": "file:features/social"
+        },
+        "commonmultidevicecommunication": {
+          "specifier": "file:common/commonmultidevicecommunication",
+          "version": "file:common/commonmultidevicecommunication"
+        }
+      },
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "features/message": {
+      "name": "message",
+      "dependencies": {
+        "commonmultidevicecommunication": {
+          "specifier": "file:common/commonmultidevicecommunication",
+          "version": "file:common/commonmultidevicecommunication"
+        }
+      },
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "features/social": {
+      "name": "social",
+      "dependencies": {
+        "commonmultidevicecommunication": {
+          "specifier": "file:common/commonmultidevicecommunication",
+          "version": "file:common/commonmultidevicecommunication"
+        }
+      },
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "features/user": {
+      "name": "user",
+      "dependencies": {
+        "commonmultidevicecommunication": {
+          "specifier": "file:common/commonmultidevicecommunication",
+          "version": "file:common/commonmultidevicecommunication"
+        }
+      },
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "products/default": {
+      "name": "multidevicecommunicationdefaultsample",
+      "dependencies": {
+        "message": {
+          "specifier": "file:features/message",
+          "version": "file:features/message"
+        },
+        "user": {
+          "specifier": "file:features/user",
+          "version": "file:features/user"
+        },
+        "social": {
+          "specifier": "file:features/social",
+          "version": "file:features/social"
+        },
+        "commonui": {
+          "specifier": "file:features/commonui",
+          "version": "file:features/commonui"
+        },
+        "commonmultidevicecommunication": {
+          "specifier": "file:common/commonmultidevicecommunication",
+          "version": "file:common/commonmultidevicecommunication"
+        }
+      },
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "products/pc": {
+      "name": "multidevicecommunicationpcsample",
+      "dependencies": {
+        "message": {
+          "specifier": "file:features/message",
+          "version": "file:features/message"
+        },
+        "user": {
+          "specifier": "file:features/user",
+          "version": "file:features/user"
+        },
+        "social": {
+          "specifier": "file:features/social",
+          "version": "file:features/social"
+        },
+        "commonui": {
+          "specifier": "file:features/commonui",
+          "version": "file:features/commonui"
+        },
+        "commonmultidevicecommunication": {
+          "specifier": "file:common/commonmultidevicecommunication",
+          "version": "file:common/commonmultidevicecommunication"
+        }
+      },
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    }
+  },
+  "packages": {
+    "commonmultidevicecommunication@file:common/commonmultidevicecommunication": {
+      "storePath": "common/commonmultidevicecommunication",
+      "dependencies": {},
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "user@file:features/user": {
+      "storePath": "features/user",
+      "dependencies": {
+        "commonmultidevicecommunication": "common/commonmultidevicecommunication"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "message@file:features/message": {
+      "storePath": "features/message",
+      "dependencies": {
+        "commonmultidevicecommunication": "common/commonmultidevicecommunication"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "social@file:features/social": {
+      "storePath": "features/social",
+      "dependencies": {
+        "commonmultidevicecommunication": "common/commonmultidevicecommunication"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "commonui@file:features/commonui": {
+      "storePath": "features/commonui",
+      "dependencies": {
+        "message": "features/message",
+        "user": "features/user",
+        "social": "features/social",
+        "commonmultidevicecommunication": "common/commonmultidevicecommunication"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    }
+  }
+}

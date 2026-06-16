@@ -1,0 +1,63 @@
+{
+  "modulePathMap": {
+    "multidevicecommunicationdefaultsample": "D:\\MultiDeviceCommunication-master\\products\\default",
+    "commonmultidevicecommunication": "D:\\MultiDeviceCommunication-master\\common\\commonmultidevicecommunication",
+    "message": "D:\\MultiDeviceCommunication-master\\features\\message",
+    "user": "D:\\MultiDeviceCommunication-master\\features\\user",
+    "social": "D:\\MultiDeviceCommunication-master\\features\\social",
+    "multidevicecommunicationpcsample": "D:\\MultiDeviceCommunication-master\\products\\pc",
+    "commonui": "D:\\MultiDeviceCommunication-master\\features\\commonui"
+  },
+  "compileMode": "esmodule",
+  "projectRootPath": "D:\\MultiDeviceCommunication-master",
+  "nodeModulesPath": "D:\\MultiDeviceCommunication-master\\products\\default\\build\\default\\intermediates\\loader_out\\default\\node_modules",
+  "byteCodeHarInfo": {},
+  "declarationEntry": [],
+  "moduleName": "multidevicecommunicationdefaultsample",
+  "hspNameOhmMap": {},
+  "harNameOhmMap": {},
+  "packageManagerType": "ohpm",
+  "compileEntry": [
+    "D:\\MultiDeviceCommunication-master\\features\\message\\src\\main\\ets\\view\\MessageDetailView.ets",
+    "D:\\MultiDeviceCommunication-master\\features\\user\\src\\main\\ets\\view\\UserView.ets",
+    "D:\\MultiDeviceCommunication-master\\features\\commonui\\src\\main\\ets\\view\\MessagesCommonView.ets",
+    "D:\\MultiDeviceCommunication-master\\features\\commonui\\src\\main\\ets\\view\\ContactsCommonView.ets",
+    "D:\\MultiDeviceCommunication-master\\products\\default\\build\\default\\generated\\r\\default\\ResourceTable.ts"
+  ],
+  "otherCompileFiles": [],
+  "dynamicImportLibInfo": {},
+  "routerMap": [
+    {
+      "ohmurl": "@normalized:N&&&message/src/main/ets/view/MessageDetailView&1.0.0",
+      "name": "MessageDetailView",
+      "pageSourceFile": "D:\\MultiDeviceCommunication-master\\features\\message\\src\\main\\ets\\view\\MessageDetailView.ets",
+      "buildFunction": "MessageDetailBuilder"
+    },
+    {
+      "ohmurl": "@normalized:N&&&user/src/main/ets/view/UserView&1.0.0",
+      "name": "UserView",
+      "pageSourceFile": "D:\\MultiDeviceCommunication-master\\features\\user\\src\\main\\ets\\view\\UserView.ets",
+      "buildFunction": "UserBuilder"
+    },
+    {
+      "ohmurl": "@normalized:N&&&commonui/src/main/ets/view/MessagesCommonView&1.0.0",
+      "name": "MessagesPage",
+      "pageSourceFile": "D:\\MultiDeviceCommunication-master\\features\\commonui\\src\\main\\ets\\view\\MessagesCommonView.ets",
+      "buildFunction": "MessagesPageBuilder"
+    },
+    {
+      "ohmurl": "@normalized:N&&&commonui/src/main/ets/view/ContactsCommonView&1.0.0",
+      "name": "ContactsPage",
+      "pageSourceFile": "D:\\MultiDeviceCommunication-master\\features\\commonui\\src\\main\\ets\\view\\ContactsCommonView.ets",
+      "buildFunction": "ContactsPageBuilder"
+    }
+  ],
+  "hspResourcesMap": {},
+  "updateVersionInfo": {},
+  "customizedHar": false,
+  "anBuildOutPut": "D:\\MultiDeviceCommunication-master\\products\\default\\build\\default\\intermediates\\loader_out\\default\\an\\arm64-v8a",
+  "anBuildMode": "type",
+  "patchConfig": {
+    "changedFileList": "D:\\MultiDeviceCommunication-master\\products\\default\\build\\default\\intermediates\\patch\\default\\changedFileList.json"
+  }
+}

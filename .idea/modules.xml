@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MultiDeviceCommunication-master.iml" filepath="$PROJECT_DIR$/.idea/modules/MultiDeviceCommunication-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/commonmultidevicecommunication.iml" filepath="$PROJECT_DIR$/.idea/modules/commonmultidevicecommunication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/commonui.iml" filepath="$PROJECT_DIR$/.idea/modules/commonui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/message.iml" filepath="$PROJECT_DIR$/.idea/modules/message.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/multidevicecommunicationdefaultsample.iml" filepath="$PROJECT_DIR$/.idea/modules/multidevicecommunicationdefaultsample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/multidevicecommunicationpcsample.iml" filepath="$PROJECT_DIR$/.idea/modules/multidevicecommunicationpcsample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/social.iml" filepath="$PROJECT_DIR$/.idea/modules/social.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user.iml" filepath="$PROJECT_DIR$/.idea/modules/user.iml" />
+    </modules>
+  </component>
+</project>
