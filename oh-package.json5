@@ -1,9 +1,20 @@
 {
+<<<<<<< HEAD
   "modelVersion": "6.1.0",
+=======
+  "modelVersion": "6.0.2",
+>>>>>>> 264037cf9efa996ea715f72fa9f72799ebce47bb
   "description": "Please describe the basic information.",
   "dependencies": {
   },
   "devDependencies": {
+<<<<<<< HEAD
   }
 }
 
+=======
+    "@ohos/hypium": "1.0.25",
+    "@ohos/hamock": "1.0.0"
+  }
+}
+>>>>>>> 264037cf9efa996ea715f72fa9f72799ebce47bb

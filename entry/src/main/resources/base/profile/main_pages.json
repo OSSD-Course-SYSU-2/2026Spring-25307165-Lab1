@@ -1,0 +1,20 @@
+{
+  "src": [
+<<<<<<< HEAD
+<<<<<<< HEAD
+    "pages/Index"
+  ]
+}
+=======
+=======
+>>>>>>> 9e6216c3319450af190960906cddf24e7f8c2d40
+    "pages/Index",
+    "pages/GamePage",
+    "pages/ResultPage"
+  ]
+<<<<<<< HEAD
+}
+>>>>>>> 9e6216c3319450af190960906cddf24e7f8c2d40
+=======
+}
+>>>>>>> 9e6216c3319450af190960906cddf24e7f8c2d40

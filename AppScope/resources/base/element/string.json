@@ -2,7 +2,19 @@
   "string": [
     {
       "name": "app_name",
+<<<<<<< HEAD
       "value": "MultiDeviceCommunication"
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+      "value": "GomokuGame"
+=======
+      "value": "WhackAMole"
+>>>>>>> 9e6216c3319450af190960906cddf24e7f8c2d40
+=======
+      "value": "WhackAMole"
+>>>>>>> 9e6216c3319450af190960906cddf24e7f8c2d40
+>>>>>>> 264037cf9efa996ea715f72fa9f72799ebce47bb
     }
   ]
 }

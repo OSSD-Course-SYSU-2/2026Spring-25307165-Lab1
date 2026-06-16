@@ -1,10 +1,25 @@
 {
   "app": {
+<<<<<<< HEAD
     "bundleName": "com.example.multidevicecommunication",
     "vendor": "example",
     "versionCode": 1000000,
     "versionName": "1.0.0",
     "buildVersion": "1",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    "bundleName": "com.example.gomokugame",
+=======
+    "bundleName": "com.example.whackamole",
+>>>>>>> 9e6216c3319450af190960906cddf24e7f8c2d40
+=======
+    "bundleName": "com.example.whackamole",
+>>>>>>> 9e6216c3319450af190960906cddf24e7f8c2d40
+    "vendor": "example",
+    "versionCode": 1000000,
+    "versionName": "1.0.0",
+>>>>>>> 264037cf9efa996ea715f72fa9f72799ebce47bb
     "icon": "$media:layered_image",
     "label": "$string:app_name"
   }

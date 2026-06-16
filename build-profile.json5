@@ -1,13 +1,30 @@
 {
   "app": {
+<<<<<<< HEAD
     "signingConfigs": [
     ],
+=======
+    "signingConfigs": [],
+>>>>>>> 264037cf9efa996ea715f72fa9f72799ebce47bb
     "products": [
       {
         "name": "default",
         "signingConfig": "default",
+<<<<<<< HEAD
         "targetSdkVersion": "6.1.0(23)",
         "compatibleSdkVersion": "6.0.2(22)",
+=======
+        "targetSdkVersion": "6.0.2(22)",
+<<<<<<< HEAD
+<<<<<<< HEAD
+        "compatibleSdkVersion": "6.0.1(21)",
+=======
+        "compatibleSdkVersion": "6.0.2(22)",
+>>>>>>> 9e6216c3319450af190960906cddf24e7f8c2d40
+=======
+        "compatibleSdkVersion": "6.0.2(22)",
+>>>>>>> 9e6216c3319450af190960906cddf24e7f8c2d40
+>>>>>>> 264037cf9efa996ea715f72fa9f72799ebce47bb
         "runtimeOS": "HarmonyOS",
         "buildOption": {
           "strictMode": {
@@ -28,8 +45,13 @@
   },
   "modules": [
     {
+<<<<<<< HEAD
       "name": "multidevicecommunicationdefaultsample",
       "srcPath": "./products/default",
+=======
+      "name": "entry",
+      "srcPath": "./entry",
+>>>>>>> 264037cf9efa996ea715f72fa9f72799ebce47bb
       "targets": [
         {
           "name": "default",
@@ -38,6 +60,7 @@
           ]
         }
       ]
+<<<<<<< HEAD
     },
     {
       "name": "commonmultidevicecommunication",
@@ -70,6 +93,8 @@
     {
       "name": "commonui",
       "srcPath": "./features/commonui"
+=======
+>>>>>>> 264037cf9efa996ea715f72fa9f72799ebce47bb
     }
   ]
 }
