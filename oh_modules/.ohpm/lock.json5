@@ -148,16 +148,6 @@
       "dynamic": false,
       "maskedByOverrideDependencyMap": false
     },
-    "social@file:features/social": {
-      "storePath": "features/social",
-      "dependencies": {
-        "commonmultidevicecommunication": "common/commonmultidevicecommunication"
-      },
-      "dynamicDependencies": {},
-      "dev": false,
-      "dynamic": false,
-      "maskedByOverrideDependencyMap": false
-    },
     "user@file:features/user": {
       "storePath": "features/user",
       "dependencies": {
@@ -170,6 +160,16 @@
     },
     "message@file:features/message": {
       "storePath": "features/message",
+      "dependencies": {
+        "commonmultidevicecommunication": "common/commonmultidevicecommunication"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "social@file:features/social": {
+      "storePath": "features/social",
       "dependencies": {
         "commonmultidevicecommunication": "common/commonmultidevicecommunication"
       },
